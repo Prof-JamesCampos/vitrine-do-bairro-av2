@@ -1,22 +1,29 @@
 {
   "expo": {
-    "name": "av2-codigo-base",
-    "slug": "av2-codigo-base",
+    "name": "Vitrine do Bairro - AV2",
+    "slug": "vitrine-do-bairro-av2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#004E64"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+        "backgroundColor": "#004E64"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
